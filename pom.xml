@@ -21,10 +21,21 @@
 
   <dependencies>
     <dependency>
+      <groupId>org.springframework</groupId>
+      <!--core模块主要包含Spring框架基本的核心工具类，Spring的其他组件都要用到这个包里的类，core模块是其他组件的核心。-->
+      <artifactId>spring-core</artifactId>
+      <version>5.0.8.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <!--beans模块是所有应用都要用到的，它包含访问配置文件、创建和管理bean以及进行IoC/DI操作相关的所有类-->
+      <artifactId>spring-beans</artifactId>
+      <version>5.0.8.RELEASE</version>
+    </dependency>
+    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
-      <scope>test</scope>
     </dependency>
   </dependencies>
 
