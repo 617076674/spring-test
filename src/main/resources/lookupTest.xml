@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="teacher" class="com.qyh.lookup.Teacher"/>
+    <bean id="student" class="com.qyh.lookup.Student"/>
+    <bean id="getBeanTest" class="com.qyh.lookup.GetBeanTest">
+        <!--动态地将student所代表的bean作为getBean方法的返回值-->
+        <lookup-method name="getBean" bean="student"/>
+    </bean>
+</beans>
