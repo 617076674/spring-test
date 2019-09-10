@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 工厂方法-->
+    <bean id="carFactory" class="com.qyh.factorymethodandfactorybean.CarFactory" />
+    <!--如果是实例工厂方法，需要指定一个CarFactory的实例和方法名-->
+    <bean id="car1" factory-bean="carFactory" factory-method="createCar" />
+    <!--如果是静态工厂方法，直接指定类名和方法名即可-->
+    <bean id="car2" class="com.qyh.factorymethodandfactorybean.CarFactory" factory-method="createStaticCar" />
+</beans>
