@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="035f2538-f28b-43c7-a8e3-cf4af3fcc9c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyh/dependencycircle/TestA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyh/dependencycircle/TestB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyh/dependencycircle/TestC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyh/dependencycircle/TestConstructorSingletonDependencyCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyh/dependencycircle/TestSetterPrototypeDependencyCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyh/factorymethodandfactorybean/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyh/factorymethodandfactorybean/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyh/factorymethodandfactorybean/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dependencycircle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dependencycircleprototype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/factorymethodandfactorybean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyh/aware/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyh/aware/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qyh/aware/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/awareTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyh/factorybean/CarFactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qyh/factorybean/CarFactoryBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qyh/factorybean/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qyh/factorybean/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyh/factorybean/CarFactoryBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qyh/factorybean/CarFactoryBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qyh/factorybean/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qyh/factorybean/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qyh/basic/KMPUtil.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KMPUtil">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="KMPUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qyh.basic.KMPUtil" />
       <module name="learn-spring" />
@@ -108,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qyh.factorymethodandfactorybean.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qyh.aware.Main" />
       <module name="learn-spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qyh.factorymethodandfactorybean.*" />
+          <option name="PATTERN" value="com.qyh.aware.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.KMPUtil" />
         <item itemvalue="Application.TestSetterPrototypeDependencyCircle" />
         <item itemvalue="Application.TestConstructorSingletonDependencyCircle" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +168,7 @@
       <workItem from="1567429256825" duration="16859000" />
       <workItem from="1567824601007" duration="11007000" />
       <workItem from="1567900468568" duration="569000" />
+      <workItem from="1568083518234" duration="10481000" />
     </task>
     <servers />
   </component>
