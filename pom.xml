@@ -24,7 +24,7 @@
       <groupId>org.springframework</groupId>
       <!--core模块主要包含Spring框架基本的核心工具类，Spring的其他组件都要用到这个包里的类，core模块是其他组件的核心。-->
       <artifactId>spring-core</artifactId>
-      <version>5.0.8.RELEASE</version>
+      <version>5.3.19</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
